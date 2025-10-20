@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>breva bonn gmbh – Internationale Beschaffung</title>
+  <meta name="description" content="Internationale Beschaffung. Einfach gemacht. Bis zu 70 % Kosten sparen – mit einem Partner in Deutschland. Lieferantensuche, Qualitätssicherung, Logistik & Zoll." />
+  <meta name="color-scheme" content="light dark" />
+  <meta property="og:title" content="breva bonn gmbh – Internationale Beschaffung" />
+  <meta property="og:description" content="Internationale Beschaffung. Einfach gemacht. Bis zu 70 % Kosten sparen – mit einem Partner in Deutschland." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="de_DE" />
+  <style>
+    :root{
+      --bg:#ffffff;
+      --text:#1d1f21;
+      --muted:#6b7280;
+      --brand:#111827;          /* dunkles Grau (Logo) */
+      --accent:#ff4081;         /* Call-to-Action */
+      --card:#f7f7f8;
+      --border:#e6e6e8;
+      --max:1100px;
+      --radius:16px;
+      --shadow:0 8px 24px rgba(0,0,0,.08);
+    }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#0f1113;
+        --text:#e9eaeb;
+        --muted:#a3a7ae;
+        --brand:#e9eaeb;
+        --card:#17191c;
+        --border:#26292e;
+        --shadow:0 10px 28px rgba(0,0,0,.35);
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,"Noto Sans",sans-serif;line-height:1.6}
+    a{color:inherit}
+    /* NAV */
+    .nav{
+      position:sticky;top:0;z-index:50;background:var(--bg);
+      border-bottom:1px solid var(--border);
+      backdrop-filter:saturate(180%) blur(6px);
+    }
+    .nav__inner{max-width:var(--max);margin:auto;display:flex;align-items:center;justify-content:space-between;padding:.9rem 1rem;gap:1rem}
+    .brand{display:flex;align-items:center;gap:.75rem;text-decoration:none}
+    .brand img{height:34px;width:auto;display:block}
+    .brand span{font-weight:800;letter-spacing:.2px;color:var(--brand)}
+    .menu{display:flex;gap:1rem;flex-wrap:wrap}
+    .menu a{padding:.5rem .75rem;border-radius:10px;text-decoration:none;color:var(--text)}
+    .menu a:hover{background:var(--card)}
+    /* HERO */
+    .hero{
+      position:relative;isolation:isolate;overflow:hidden;
+      border-bottom:1px solid var(--border);
+      background: radial-gradient(80rem 40rem at 50% -20%, rgba(17,24,39,.08), transparent),
+                  linear-gradient(180deg, rgba(17,24,39,.03), transparent 40%);
+    }
+    .hero__inner{max-width:var(--max);margin:auto;padding:clamp(3rem,5vw,6rem) 1rem;text-align:center}
+    .kicker{color:var(--muted);font-weight:600;letter-spacing:.12em;text-transform:uppercase}
+    h1{font-size:clamp(1.8rem,4.2vw,3.2rem);line-height:1.15;margin:.5rem 0}
+    .lead{font-size:clamp(1.05rem,2.2vw,1.25rem);color:var(--muted);max-width:42rem;margin:0 auto}
+    .cta{
+      margin-top:1.6rem;display:inline-flex;align-items:center;gap:.5rem;
+      background:var(--accent);color:#fff;border:0;border-radius:999px;
+      padding:.9rem 1.2rem;font-weight:700;text-decoration:none;box-shadow:var(--shadow)
+    }
+    .cta:hover{transform:translateY(-1px)}
+    /* SECTIONS */
+    section{scroll-margin-top:80px}
+    .wrap{max-width:var(--max);margin:auto;padding:clamp(2.2rem,4.2vw,3.6rem) 1rem}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem 1.25rem 1.1rem;box-shadow:var(--shadow)}
+    h2{font-size:clamp(1.4rem,3.4vw,2rem);margin:0 0 1rem}
+    .grid{display:grid;gap:1rem}
+    @media(min-width:840px){.grid{grid-template-columns:repeat(2,1fr)}}
+    ul,ol{margin:0;padding-left:1.25rem}
+    li{margin:.35rem 0}
+    .examples li{margin:.5rem 0}
+    .muted{color:var(--muted)}
+    /* CONTACT */
+    .contact{display:grid;gap:1rem}
+    @media(min-width:840px){.contact{grid-template-columns:1.1fr .9fr}}
+    .form{display:grid;gap:.75rem}
+    .input, textarea{
+      width:100%;background:var(--bg);color:var(--text);
+      border:1px solid var(--border);border-radius:12px;padding:.9rem
+    }
+    .btn{background:var(--brand);color:#fff;border:0;border-radius:12px;padding:.85rem 1rem;font-weight:700}
+    .btn:hover{opacity:.92}
+    /* FOOTER */
+    footer{border-top:1px solid var(--border)}
+    .foot{max-width:var(--max);margin:auto;padding:1.2rem 1rem;color:var(--muted);font-size:.95rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    /* SMALL HELPER BADGE */
+    .badge{display:inline-block;background:var(--card);border:1px solid var(--border);padding:.25rem .55rem;border-radius:999px;font-size:.82rem;margin:.4rem 0;color:var(--muted)}
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="#home" class="brand">
+        <img src="brevabonngmbh-high-resolution-logo.png" alt="breva bonn gmbh Logo" />
+        <span>breva bonn gmbh</span>
+      </a>
+      <div class="menu" role="navigation" aria-label="Hauptmenü">
+        <a href="#about">Über uns</a>
+        <a href="#services">Leistungen</a>
+        <a href="#cases">Beispiele</a>
+        <a href="#process">Ablauf</a>
+        <a href="#contact">Kontakt</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero">
+    <div class="hero__inner">
+      <div class="kicker">internationale beschaffung</div>
+      <h1>einfach gemacht.</h1>
+      <p class="lead">Bis zu 70&nbsp;% Kosten sparen – mit einem Partner in Deutschland. Qualität sichern, Lieferzeiten planen, Risiken minimieren.</p>
+      <a class="cta" href="#contact" aria-label="Jetzt kostenlos beraten lassen">Jetzt kostenlos beraten lassen →</a>
+      <div class="badge">Standort: Bahnhofstr. 2, 53557 Bad Hönningen</div>
+    </div>
+  </header>
+
+  <!-- ÜBER UNS -->
+  <section id="about" class="wrap">
+    <div class="grid">
+      <div class="card">
+        <h2>Über uns</h2>
+        <p><strong>breva</strong> wurde 2024 gegründet – mit dem Ziel, europäischen Unternehmen Zugang zu effizienten, internationalen Lieferketten zu verschaffen, ohne Kompromisse bei Qualität oder Zuverlässigkeit.</p>
+        <p>Unsere Gründer verfügen über langjährige Erfahrung im internationalen Handel (Deutschland, Vereinigtes Königreich, Türkei, China). Wir kennen die besten Preis-Leistungs-Routen und arbeiten mit Marktführern in See-, Land- und Luftfracht zusammen.</p>
+        <p>Seit 2022 aktiv im deutschen Markt, schließen wir die Lücke für flexible, serviceorientierte Beschaffungslösungen: so günstig wie möglich, so hochwertig wie nötig – abgewickelt über unseren Standort in Deutschland.</p>
+      </div>
+      <div class="card">
+        <h2>Unser Versprechen</h2>
+        <ul>
+          <li><strong>Transparenz:</strong> Ein Ansprechpartner in Deutschland.</li>
+          <li><strong>Qualität:</strong> Lieferanten mit europäischen Standards.</li>
+          <li><strong>Tempo:</strong> Klare Prozesse, verlässliche Termine.</li>
+          <li><strong>Wirtschaftlichkeit:</strong> Messbare Einsparungen entlang der Kette.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEISTUNGEN -->
+  <section id="services" class="wrap">
+    <div class="card">
+      <h2>Unsere Leistungen</h2>
+      <ul>
+        <li><strong>Lieferantensuche &amp; Preisverhandlungen</strong> – weltweit und bedarfsorientiert</li>
+        <li><strong>Qualitätssicherung &amp; Kommunikation</strong> – interkulturell kompetent, vorausschauend</li>
+        <li><strong>Logistik &amp; Zollabwicklung</strong> – See-, Luft- und Landfracht bis vor Ihre Tür</li>
+        <li><strong>Ein Ansprechpartner in Deutschland</strong> – maximale Transparenz, minimaler Aufwand</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- BEISPIELE -->
+  <section id="cases" class="wrap">
+    <div class="card">
+      <h2>Beispiele &amp; Einsparungen</h2>
+      <ul class="examples">
+        <li>📦 <strong>Marketingboxen</strong>: Deutschland 27.000 € → breva 10.000 € <span class="muted">(63 % Ersparnis)</span></li>
+        <li>💡 <strong>Leiterplattenfertigung</strong>: Deutschland 28.000 € → breva 6.400 € <span class="muted">(77 % Ersparnis)</span></li>
+        <li>🧩 <strong>Schaumstoffeinlagen</strong>: DE 12 Wochen &amp; 50 €/Stk → breva 4 Wochen &amp; 13 €/Stk</li>
+        <li>📚 <strong>Kataloge (1.000 Stk, 200 Seiten)</strong>: Deutschland 6.700 € → breva 4.000 € <span class="muted">(+10 Tage)</span></li>
+        <li>🖥️ <strong>Web-Konfigurator</strong>: Agentur 60.000 € → breva 18.600 € <span class="muted">(69 % Ersparnis)</span></li>
+        <li>🏷️ <strong>Magnetische Namensschilder</strong>: Deutschland 10,36 € → breva 1,90 €</li>
+      </ul>
+      <p class="muted"><em>Individuelle Kalkulationen auf Anfrage – wir prüfen unverbindlich Ihr Einsparpotenzial.</em></p>
+    </div>
+  </section>
+
+  <!-- ABLAUF -->
+  <section id="process" class="wrap">
+    <div class="card">
+      <h2>So funktioniert’s</h2>
+      <ol>
+        <li><strong>1. Anfrage senden:</strong> Produktdaten, Anforderungen, Mengen</li>
+        <li><strong>2. Angebot erhalten:</strong> mit Preis, Lieferzeit &amp; Ablauf</li>
+        <li><strong>3. Umsetzung:</strong> breva übernimmt Transport, Kommunikation &amp; Zoll</li>
+      </ol>
+      <p class="muted"><em>Ein Ansprechpartner. Volle Transparenz. Keine Überraschungen.</em></p>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section id="contact" class="wrap">
+    <div class="contact">
+      <div class="card">
+        <h2>Kontakt</h2>
+        <p>Sie möchten ein Projekt starten oder unverbindlich Ihr Einsparpotenzial prüfen lassen? Sprechen Sie mit uns – ohne Risiko.</p>
+        <p><strong>E-Mail:</strong> <a href="mailto:info@breva.co">info@breva.co</a><br>
+           <strong>Adresse:</strong> Bahnhofstr. 2, 53557 Bad Hönningen</p>
+        <p class="muted">Tipp: Schreiben Sie direkt per E-Mail mit Stichwort <em>„Beratung“</em> und wir melden uns zeitnah.</p>
+      </div>
+      <div class="card">
+        <h2>Nachricht senden</h2>
+        <form class="form" action="mailto:info@breva.co" method="post" enctype="text/plain">
+          <input class="input" type="text" name="name" placeholder="Ihr Name" required />
+          <input class="input" type="email" name="email" placeholder="Ihre E-Mail" required />
+          <textarea class="input" name="nachricht" rows="6" placeholder="Ihre Nachricht" required></textarea>
+          <button class="btn" type="submit">Nachricht senden</button>
+          <p class="muted" style="margin:0">Hinweis: Das Formular öffnet Ihr E-Mail-Programm. Alternativ direkt an <a href="mailto:info@breva.co">info@breva.co</a> schreiben.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot">
+      <div>© 2025 breva bonn gmbh – Bahnhofstr. 2, 53557 Bad Hönningen</div>
+      <div><a href="#home">Nach oben ↑</a> · <span class="muted">Impressum | Datenschutz</span></div>
+    </div>
+  </footer>
+
+</body>
+</html>
